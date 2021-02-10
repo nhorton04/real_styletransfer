@@ -4,6 +4,6 @@ matplotlib==3.2.2
 tqdm==4.47.0
 av==8.0.3
 Pillow==8.1.0
-skvideo==0.1.1
+sk-video==0.1.1
 torch==1.7.1
 torchvision==0.8.2
