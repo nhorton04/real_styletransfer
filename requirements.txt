@@ -3,7 +3,7 @@ streamlit==0.74.1
 matplotlib==3.2.2
 tqdm==4.47.0
 av==8.0.3
-opencv-python==2.4.9
+opencv-python==3.4.11.41
 Pillow==8.1.0
 scikit-video==0.1.1
 torch==1.7.1
