@@ -1,0 +1,3 @@
+set -- *
+[ "$#" -le 20000 ] || shift "$(($# - 20000))"
+cp -r -- "$@" ~/Downloads/GANs/Implementations/Fast-Neural-Style-Transfer-master/20k_imgs

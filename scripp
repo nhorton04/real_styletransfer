@@ -1,0 +1,8 @@
+#!/bin/bash
+
+styles=~/Downloads/GANs/Implementations/Fast-Neural-Style-Transfer-master/images/styles/*
+
+for style in $styles
+do
+  python3 train.py --dataset_path 10k_imgs/ --style_image $style  --image_size 256
+done
